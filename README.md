@@ -2,7 +2,7 @@
 
 
 ## CURL COMMAND
-The command ** curl "yourlongurl" -O "data.txt" ** is used to return the page text from a url and copies the output to a file.
+The command **curl "yourlongurl" -O "data.txt"** is used to return the page text from a url and copies the output to a file.
 
 ## GIT BASH COMMANDS 
 ### TO PROCESS TEXT DATA
@@ -28,8 +28,8 @@ In bash shell
 - -r flag is used for **reverse** . It reverses the result of comparisons.
 - One dash is used with a single letter flag
 - Two dashes are used with more than one letter flag
-- > command is used for Bash redirect
-- >> command is used for Bash redirect & append 
+- command > is used for Bash redirect
+- command >> is used for Bash redirect & append 
 - ls command helps to list the contents of the default directory
 - **cat** command to displays the contents of text file
 
