@@ -2,23 +2,23 @@
 
 
 ## CURL COMMAND
-The command **curl "yourlongurl" -O "data.txt"** is used to return the page text from a url and copies the output to a file.
+The command **curl "https://hughwesley.com/short-story-websites" -O "data.txt"** is used to return the page text from a url and copies the output to a file.
 
 ## GIT BASH COMMANDS 
 ### TO PROCESS TEXT DATA
-- tr ' ' '\12' < returnedfile
+- tr ' ' '\12' < data.txt
 Transform each space ' ' in the file into a return character '\12'
 
-- tr ' ' '\12' < returnedfile | sort
+- tr ' ' '\12' < data.txt | sort
 Sorts the output
 
-- tr ' ' '\12' < returnedfile | sort | uniq -c
+- tr ' ' '\12' < data.txt | sort | uniq -c
 Displays the count of the sorted output using uniq -c 
 
-- tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr
-Displays the reduced output to sort with -nr flag
+- tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr
+Displays the sorted output in the numeric reverse order with -nr flag
 
-- tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr > result.txt
+- tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr > result.txt
 Move the content to a output file named result.txt
 
 ### MOST USED & IMPORTANT COMMANDS
