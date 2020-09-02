@@ -24,13 +24,13 @@ Move the content to a output file named result.txt
 ### MOST USED & IMPORTANT COMMANDS
 - Up arrow in bash helps one to search through the history i.e. to access the previously used commands
 In bash shell
-- -n flag is used for **numeric-sort**.It compare according to string numerical value
-- -r flag is used for **reverse** . It reverses the result of comparisons.
-- One dash is used with a single letter flag
-- Two dashes are used with more than one letter flag
-- command > is used for Bash redirect
-- command >> is used for Bash redirect & append 
-- ls command helps to list the contents of the default directory
+- **-n** flag is used for **numeric-sort**.It compare according to string numerical value
+- **-r** flag is used for **reverse** . It reverses the result of comparisons.
+- One dash **-** is used with a single letter flag
+- Two dashes **--** are used with more than one letter flag
+- command **>** is used for Bash redirect
+- command **>>** is used for Bash redirect & append 
+- **ls** command helps to list the contents of the default directory
 - **cat** command to displays the contents of text file
 
 
